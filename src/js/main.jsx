@@ -10,8 +10,9 @@ import '../styles/index.css'
 
 // components
 import Home from './components/Home';
-
+//                   html      del  id      root 
 ReactDOM.createRoot(document.getElementById('root')).render(
+  // muestra el componente home
   <React.StrictMode>
     <Home/>
   </React.StrictMode>,
